@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+    font-size: 30px;
+}
+
+.conteiner {
+    min-height: 600px;
+    width: 100%;
+}
+
+.textbox {
+    height: 110px;
+    padding-left: 400px;
+    padding-top: 40px;
+    width: auto;
+}
+
+.square {
+    float: left;
+    min-height: 400px;
+    width: 50%;
+}
+
+.bigletters {
+    padding-left: 400px;
+    padding-top: 40px;
+}
+
+.smallletters {
+    padding: 40px;
+}
+
+.letter_template {
+    border: 3px solid gray;
+    border-radius: 15px;
+    float: left;
+    width: 51px;
+    height: 51px;
+    line-height: 35px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.letter_highlight {
+    background-color: #ef7072;
+    border: 3px solid red;
+    border-radius: 15px;
+    float: left;
+    width: 51px;
+    height: 51px;
+    line-height: 35px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}

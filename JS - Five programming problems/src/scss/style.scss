@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.rec {
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    margin: 100px;
+
+
+}
+
+body {
+    background-color: #000;
+    transition: all .3s;
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-color: #888;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: #800;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #008;
+    }
+}

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+    font-size: 30px;
+}
+
+.container {
+    min-height: 600px;
+    padding: 50px;
+    width: 1000px;
+}
+
+.label {
+    margin-bottom: 30px;
+}
+
+.rectangle {
+    height: 100px;
+    float: left;
+    width: 300px;
+}
+
+input {
+    background-color: #c8cbd1;
+    font-size: 30px;
+    height: 40px;
+    outline: none;
+    width: 150px;
+    transition: background-color 0.5s;
+}
+
+input:hover {
+    border-bottom: 2px solid #e8ea56;
+}
+
+input:focus {
+    background-color: #ffffff;
+}
